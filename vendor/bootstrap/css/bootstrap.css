@@ -40,7 +40,11 @@
 *::after {
   box-sizing: border-box;
 }
-
+img {
+  display: block;
+  max-width: 100%;
+  height: auto
+}
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -480,7 +484,7 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 50px;
 }
 
 .img-thumbnail {
